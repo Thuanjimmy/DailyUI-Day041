@@ -1,0 +1,51 @@
+body {
+  background-color: #222831;
+  color: #222831;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+.box {
+  width: 320px;
+  height: 600px;
+  background-color: #dddddd;
+  border-radius: 50px;
+  border: black 10px solid;
+  margin: 75px auto;
+  padding: 25px;
+}
+
+.notch {
+  background-color: black;
+  width: 160px;
+  height: 25px;
+  border-radius: 75px;
+  position: absolute;
+  top: 75px;
+  right: 640px;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  bottom: 20px;
+}
+.above {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  bottom: 20px;
+}
+.box1 {
+  padding: 10px;
+}
+button {
+  width: 120px;
+  height: 95px;
+  box-shadow: black 2px 5px;
+}
+.pic {
+  width: 50%;
+}
